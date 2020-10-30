@@ -1,11 +1,9 @@
 import React from 'react'
 
-
 const Search = (props) =>{
 const title = props.titleCity
 const titulo = title.toUpperCase()
 const ApiError = props.errorCity
-
 
   return(
     <div className="text-center p-2 bg-transparent">
@@ -15,7 +13,6 @@ const ApiError = props.errorCity
            titulo
           }
          </h1>
-
      </div>
         <form onSubmit={props.getWeather} className="p-2 md:grid grid-cols-3 gap-4 md:justify-evenly">
           <div className=" text-center">
@@ -47,9 +44,7 @@ const ApiError = props.errorCity
                   <p>LA CIUDAD INGRSADA NO SE ENCUENTRA</p>
                 </div>
               )}
-            </div>
-            
-          
+            </div>      
     </div>
   )
 
