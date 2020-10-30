@@ -9,7 +9,7 @@ function Footer() {
        <h1 className="text-center"><span><FontAwesomeIcon icon={faCopyright}/></span><span>2020 Todos los derechos reservados</span></h1>
      </div>
     </div>
-  )
+  ) 
 
 
 
